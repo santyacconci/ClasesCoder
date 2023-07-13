@@ -232,7 +232,7 @@ html, body {
         top: 0;
         right: -500px;
         margin: 10px;
-        padding: 40px;
+        padding: 20px;
         gap: 70px;
         background-color: rgb(96, 81, 151);
         border-radius: 6px;
@@ -242,6 +242,7 @@ html, body {
         align-items: center;
         justify-content: start;
         transition: 0.5s;
+        overflow: auto;
     }
 
     .mapa{
