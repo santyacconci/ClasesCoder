@@ -156,7 +156,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    margin-right: 100px;
 }
 
 .producto{
@@ -260,6 +259,17 @@ html, body {
         overflow: auto;
     }
 
+    .principal-index{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .formulario{
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+
     .mapa{
         width: 100vw;
     }
@@ -268,9 +278,6 @@ html, body {
         font-size: 15px;
         padding: 10px;
     }
-
-    
-
 
 }
 
