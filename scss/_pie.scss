@@ -1,0 +1,16 @@
+.pie{
+    background-color: rgb(96, 81, 151);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .creador{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    
+}

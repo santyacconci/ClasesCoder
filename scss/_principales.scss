@@ -1,0 +1,21 @@
+.principal-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-contacto{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 160px;
+
+}
+
+.principal-nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+}

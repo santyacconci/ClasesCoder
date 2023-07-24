@@ -1,0 +1,35 @@
+.titulo{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: block;
+    color: white;
+}
+
+.titulo-contacto{  
+    display: flex;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.titulo-nosotros{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.titulo-productos{  
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros-parrafo{
+    margin-top: 20px;
+    font-size: 20px;
+}

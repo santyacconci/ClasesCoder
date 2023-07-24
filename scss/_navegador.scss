@@ -1,0 +1,28 @@
+.navegador{
+    margin-left: 20px;
+    padding: 10px; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.navegador .menu{
+    display: none;
+}
+
+.lista {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.lista-link{
+    margin: 10px;
+    font-size: 20px;
+    color: white; 
+    text-decoration: none;
+}

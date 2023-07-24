@@ -1,0 +1,20 @@
+.tarjeta{
+    margin: 10px;
+    width: 50%;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+    .producto{
+        width: 200px;
+        border: 2px solid rgb(82, 74, 74);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+    }
+}
