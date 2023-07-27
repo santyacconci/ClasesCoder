@@ -1,4 +1,6 @@
 @import "reset";
+@import "variables";
+@import "extends";
 @import "encabezado";
 @import "titulos";
 @import "navegador";
@@ -9,6 +11,8 @@
 @import "productos";
 @import "html";
 @import "pie";
+
+/*se me rompe el @media una vez q lo paso a otra hoja de sass, por eso los dejo en la hoja principal de estilos*/
 
 
 @media(max-width:768px){

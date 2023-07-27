@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+.productos .producto button, .formulario button {
+  background-color: #7e5b5b;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .encabezado {
   background-color: rgb(167, 15, 15);
   display: grid;
@@ -102,6 +114,7 @@
 .imagen-carrousel {
   width: 300px;
   height: 300px;
+  object-fit: cover;
 }
 
 .imagen {
@@ -142,7 +155,7 @@
   color: rgb(97, 6, 6);
   border-bottom: 1px solid white;
 }
-.formulario form input input:focus {
+.formulario form input:focus {
   border: 0;
   border-bottom: 2px solid white;
   outline: none;
@@ -151,18 +164,9 @@
   grid-column: 1/2;
   grid-row: 3/4;
 }
-.formulario .boton {
+.formulario button {
   grid-column: 2/3;
   grid-row: 3/4;
-  background-color: #7e5b5b;
-  border-radius: 5px;
-  color: white;
-  border: none;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
 }
 
 .tarjeta {
@@ -184,7 +188,6 @@
   padding: 20px;
   margin: 10px;
 }
-
 html, body {
   height: 100%;
   margin: 0;
@@ -213,6 +216,7 @@ main {
   justify-content: end;
 }
 
+/*se me rompe el @media una vez q lo paso a otra hoja de sass, por eso los dejo en la hoja principal de estilos*/
 @media (max-width: 768px) {
   .titulo {
     font-size: 15px;

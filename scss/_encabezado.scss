@@ -1,5 +1,5 @@
 .encabezado{
-    background-color: rgb(167, 15, 15);
+    background-color: $bg-color-head;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
