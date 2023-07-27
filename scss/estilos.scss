@@ -5,7 +5,7 @@
 @import "titulos";
 @import "navegador";
 @import "principales";
-@import "carrousel";
+@import "carousel";
 @import "multimedias";
 @import "formulario";
 @import "productos";
@@ -72,8 +72,14 @@
     }
    
     .principal-index{
-        flex-direction: column;
-        flex-wrap: wrap;
+        .tarjeta{
+            width: 90%;
+        }
+    }
+
+    .imagen-carousel{
+        width: 100%;
+        border-radius: 0px;
     }
 
     .formulario{

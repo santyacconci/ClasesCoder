@@ -1,4 +1,8 @@
 .tarjeta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
     margin: 10px;
     width: 50%;
 }
