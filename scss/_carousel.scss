@@ -1,11 +1,12 @@
 .titulo-carousel{
     color: black;
 }
-
-.imagen-carousel{
-    width: 500px;
-    height: 400px;
+/*no le puedo encontrar la solucion a la ruptura de las imagenes cuando uso el carousel*/
+.carousel-inner img {
+    max-height: 400px;
+    width: auto;
     border-radius: 10px;
-    overflow: hidden;
     object-fit: cover;
+    overflow: hidden;
 }
+

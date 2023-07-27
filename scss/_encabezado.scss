@@ -1,5 +1,5 @@
 .encabezado{
-    background-color: $bg-color-head;
+    background-image: linear-gradient(90deg,$bg-color-head1,$bg-color-head2);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
